@@ -1,0 +1,50 @@
+li.post {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 22px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 700px;
+
+  div.header-post {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+    }
+
+    div.info-user {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      justify-content: center;
+
+      strong.authorname {
+        font-family: Helvetica;
+        font-size: 16px;
+      }
+
+      strong.userdate {
+        font-size: 12px;
+        color: #bfbec0;
+        font-family: Helvetica;
+      }
+    }
+  }
+
+  div.usercontent {
+    border-bottom: 1px solid #e6ecf0;
+    padding: 15px;
+
+    p {
+      font-size: 14px;
+      color: #1f2326;
+      word-wrap: break-word;
+    }
+  }
+}

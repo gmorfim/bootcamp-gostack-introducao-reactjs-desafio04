@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: center;
+
+  div.header {
+    width: 1024px;
+    height: 64px;
+    padding: 0px 42px;
+    background: #4a90e2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div.side {
+      display: flex;
+      align-items: center;
+
+      strong {
+        font-family: Helvetica;
+        font-size: 15px;
+        color: #ffffff;
+        margin-right: 27px;
+      }
+
+      img {
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
